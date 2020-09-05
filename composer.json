@@ -1,5 +1,5 @@
 {
-    "name": "symfony/redis-messenger",
+    "name": "eliberty/symfony-redis-messenger",
     "type": "symfony-bridge",
     "description": "Symfony Redis extension Messenger Bridge",
     "keywords": [],
@@ -17,11 +17,11 @@
     ],
     "require": {
         "php": ">=7.2.5",
-        "symfony/messenger": "^5.1"
+        "eliberty/symfony-messenger": "3.4-dev"
     },
     "require-dev": {
-        "symfony/property-access": "^4.4|^5.0",
-        "symfony/serializer": "^4.4|^5.0"
+        "symfony/property-access": "^3.4|^4.4|^5.0",
+        "symfony/serializer": "^3.4|^4.4|^5.0"
     },
     "autoload": {
         "psr-4": { "Symfony\\Component\\Messenger\\Bridge\\Redis\\": "" },
@@ -32,7 +32,7 @@
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-            "dev-master": "5.2-dev"
+            "dev-master": "3.4-dev"
         }
     }
 }
