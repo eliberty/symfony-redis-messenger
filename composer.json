@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=7.2.5",
-        "eliberty/symfony-messenger": "3.4-dev"
+        "eliberty/symfony-messenger": "dev-3.4"
     },
     "require-dev": {
         "symfony/property-access": "^3.4|^4.4|^5.0",
